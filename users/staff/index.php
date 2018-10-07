@@ -35,7 +35,47 @@
     </section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-3">
+                <figure class="thumbnail">
+                    <a href="detail.php"><img src="../assets/img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
+                    <figcaption class="caption text-center">
+                        <h3>Reena Scot -
+                            <small>Director</small>
+                        </h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure class="thumbnail">
+                    <a href="detail.php"><img src="../assets/img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
+                    <figcaption class="caption text-center">
+                        <h3>Reena Scot -
+                            <small>Director</small>
+                        </h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure class="thumbnail">
+                    <a href="detail.php"><img src="../assets/img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
+                    <figcaption class="caption text-center">
+                        <h3>Reena Scot -
+                            <small>Director</small>
+                        </h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure class="thumbnail">
+                    <a href="detail.php"><img src="../assets/img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
+                    <figcaption class="caption text-center">
+                        <h3>Reena Scot -
+                            <small>Director</small>
+                        </h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
                 <figure class="thumbnail">
                     <a href="detail.php"><img src="../assets/img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
                     <figcaption class="caption text-center">

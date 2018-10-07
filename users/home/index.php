@@ -75,34 +75,73 @@
 </div>
 <!-- #x-corp-carousel-->
 
-<section class="x-services ptb-100 gray-bg">
-
+<section class="x-services ptb-50 gray-bg">
     <section class="section-title">
         <div class="container text-center">
-            <h2>What We Offer</h2>
+            <h2>Berita</h2>
             <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
         </div>
     </section>
-
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="thumbnail clearfix">
-                    <a href="#"><img class="../assets/img-responsive" src="../assets/img/img-offer-1.jpg" alt="Image"></a>
-
                     <div class="caption">
-                        <h3><a href="#">Investment</a></h3>
-
-                        <p>Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat
-                            tellus odio malesuada ex.</p>
+                        <h2>Investment</h2>
+                        <hr>
+                        <p class="text-justify">Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat tellus odio malesuada ex.</p><br>
+                        <button type="submit" class="btn btn-success btn-sm"><i class="fa fa-magic"></i>&nbsp; Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="thumbnail clearfix">
+                    <div class="caption">
+                        <h2>Investment</h2>
+                        <hr>
+                        <p class="text-justify">Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat tellus odio malesuada ex.</p><br>
+                        <button type="submit" class="btn btn-success btn-sm"><i class="fa fa-magic"></i>&nbsp; Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="thumbnail clearfix">
+                    <div class="caption">
+                        <h2>Investment</h2>
+                        <hr>
+                        <p class="text-justify">Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat tellus odio malesuada ex.</p><br>
+                        <button type="submit" class="btn btn-success btn-sm"><i class="fa fa-magic"></i>&nbsp; Selengkapnya</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- .container -->
 </section>
-<!-- .x-services -->
+
+<section class="x-services ptb-50 gray-bg">
+    <section class="section-title">
+        <div class="container text-center">
+            <h2>Pengumuman</h2>
+            <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="thumbnail clearfix">
+                    <div class="caption">
+                        <h2>Investment</h2>
+                        <hr>
+                        <p class="text-justify">Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat tellus odio malesuada ex.</p><br>
+                        <button type="submit" class="btn btn-success btn-sm"><i class="fa fa-magic"></i>&nbsp; Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

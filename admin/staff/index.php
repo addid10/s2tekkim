@@ -57,9 +57,9 @@
                                             <tr>
                                                 <td>1610817110001</td>
                                                 <td>Achmad Mujaddid Islami</td>
-                                                <td><button class="au-btn btn-info" data-toggle="modal" data-target="#detailStaff">Detail</button></td>
-                                                <td><button class="au-btn btn-warning" data-toggle="modal" data-target="#tambahStaff">Update</button></td>
-                                                <td><button class="au-btn btn-danger">Delete</button></td>
+                                                <td><button class="btn btn-primary" data-toggle="modal" data-target="#detailStaff">Detail</button></td>
+                                                <td><button class="btn btn-warning" data-toggle="modal" data-target="#tambahStaff">Update</button></td>
+                                                <td><button class="btn btn-danger">Delete</button></td>
                                             </tr>
                                         </tbody>
                                     </table>

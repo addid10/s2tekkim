@@ -11,6 +11,11 @@ body {
 Global Typography
 ------------------------------------------*/
 
+.btn-sm {
+    padding: 5px 8px !important;
+    box-shadow:1px 1px 2px 1px #000000;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin      : 0 0 15px;
     color       : #313131;
@@ -170,6 +175,11 @@ button:focus,
 /* -------------------
    Section Padding
    --------------------*/
+.ptb-50 {
+    padding-bottom : 50px;
+    padding-top    : 50px;
+    }
+
 .pt-100 {
     padding-top : 100px;
     }
@@ -765,6 +775,8 @@ Shortcode Content
     border        : 1px solid #f1f1f1;
     border-radius : 0;
     margin-bottom : 30px;
+    box-shadow:1px 1px 2px 1px #000000;
+    
     }
 
 @media (min-width : 768px) {
@@ -1232,17 +1244,19 @@ service-icon-style
 /*----------------------
  tabOne start
  -----------------------*/
-.tabOne {}
+.tabOne {
+    font-size:15px;
+}
 .tabOne .nav-tabs {
-    border: 1px solid #eee;
     border-bottom: none;
     }
 .tabOne .nav-tabs.nav-justified li {
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    background:linear-gradient(#e55d1c,#f26522);
+    border-right: 1px solid #f26522;
+    border-bottom: 1px solid #f26522;
     }
 .tabOne .nav-tabs.nav-justified li.active {
-    border-bottom: 1px solid transparent;
+    border-bottom: 4px solid #f26522;
     }
 .tabOne .nav-tabs.nav-justified li:last-child {
     border-right: 0;
@@ -1250,8 +1264,8 @@ service-icon-style
 .tabOne .nav-tabs.nav-justified>li>a {
     border: 0;
     border-radius: 0;
-    background-color: #f9f9f9;
-    color: #969595;
+    background-color: #ea7d49;
+    color: #000;
     height: 50px;
     line-height: 50px;
     padding: 0 15px;
@@ -1261,7 +1275,7 @@ service-icon-style
 .tabOne .nav-tabs.nav-justified>.active>a:hover {
     border: 0;
     background-color: transparent;
-    color: #31aae2;
+    color: #FFF;
     }
 
 /*media query*/
@@ -1565,3 +1579,28 @@ service-icon-style
     border:none;
     padding:0  0 50px 0;
 }   
+
+.detail-navbar{
+    background-color   : #333333 !important;
+    padding            : 10px 0 !important;
+}
+
+.mb-30{
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+
+.np-5{
+    padding:13px !important;
+}
+
+.staff-card{
+    background:linear-gradient(#e55d1c,#f26522,#ea7d49);
+    color:#000000;
+    border-radius:8px;
+}
+
+.img-staff{
+    position:relative;
+    top:15px;
+}

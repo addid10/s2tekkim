@@ -56,9 +56,9 @@
                                             <tr>
                                                 <td>1</td>
                                                 <td>Irham & Wiwi: Sekawanan Elang</td>
-                                                <td><button class="au-btn btn-info" data-toggle="modal" data-target="#detailArtikel">Detail</button></td>
-                                                <td><button class="au-btn btn-warning" data-toggle="modal" data-target="#tambahArtikel">Update</button></td>
-                                                <td><button class="au-btn btn-danger">Delete</button></td>
+                                                <td><button class="btn btn-info" data-toggle="modal" data-target="#detailArtikel">Detail</button></td>
+                                                <td><button class="btn btn-warning" data-toggle="modal" data-target="#tambahArtikel">Update</button></td>
+                                                <td><button class="btn btn-danger">Delete</button></td>
                                             </tr>
                                         </tbody>
                                     </table>
