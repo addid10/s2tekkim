@@ -1590,6 +1590,11 @@ service-icon-style
     margin-top:100px;
 }
 
+.mb-40{
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
 .np-5{
     padding:13px !important;
 }
@@ -1603,4 +1608,10 @@ service-icon-style
 .img-staff{
     position:relative;
     top:15px;
+}
+
+p.contents{
+    color:#000;
+    font-size:16px;
+    text-align:justify;
 }
