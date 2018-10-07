@@ -44,7 +44,7 @@
 
     <div class="copyright-section">
         <div class="container clearfix">
-                <span class="copytext">Copyright &copy; 2016 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">S2teknik</a> Designed And Developed By: <strong style="color: #31aae2;"">uiCookies.com</strong></span>
+                <span class="copytext">Copyright &copy; 2016 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">x-corporation</a> Designed And Developed By: <strong style="color: #31aae2;"">uiCookies.com</strong></span>
 
             <ul class="list-inline pull-right">
                 <li class="active"><a href="#">Home</a></li>

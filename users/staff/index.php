@@ -37,7 +37,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <figure class="thumbnail">
-                    <a href="#"><img src="../assets/img/img-team-1.jpg" class="../assets/img-responsive" alt="Image"></a>
+                    <a href="detail.php"><img src="../assets/img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
                     <figcaption class="caption text-center">
                         <h3>Reena Scot -
                             <small>Director</small>
@@ -84,7 +84,7 @@
 </div>
 <!-- #main-wrapper -->
     <?php require_once('../layout/js.php'); ?>
-<div/>
+<div>
 		<a style="font-size:0; height:0; width:0; opacity:0; position:absolute" target="_blank" href="http://www.uicookies.com">HTML Templates by uiCookies</a>        
 	</div>
 </body>

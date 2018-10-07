@@ -38,6 +38,7 @@
 
             <ul class="nav navbar-nav navbar-right main-nav">
                 <li class="active"><a href="../home">Home</a></li>
+                <li><a href="../visi misi">Visi misi</a></li>
                 <li><a href="../kurikulum">Kurikulum</a></li>
                 <li><a href="../staff">Staff</a></li>
                 <li><a href="../about">Tentang Kami</a></li>

@@ -1043,7 +1043,7 @@ Team
     background-size       : cover;
     width                 : 100%;
     background-attachment : fixed;
-    padding               : 15% 0 5%;
+    padding               : 8% 0 2%;
     position: relative;
     }
 
@@ -1550,3 +1550,18 @@ service-icon-style
     text-align: center;
     top: 65%;
     }
+
+.photo{
+    width:45%;
+    float:left;
+    padding:0 50px 0 0;
+}
+
+.detail{
+    width:40%;
+    float:left;
+    font-family:arial;
+    color:black;
+    border:none;
+    padding:0  0 50px 0;
+}   
