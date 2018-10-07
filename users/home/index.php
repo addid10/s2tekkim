@@ -32,7 +32,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="../assets/img/hero-slide-1.jpg" alt="Hero Slide">
+            <img src="../assets/img/hero-slide-1-2.jpg" alt="Hero Slide">
 
             <div class="carousel-caption">
                 <h1>It′s simple, smart and occasionally magical.</h1>
@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="../assets/img/hero-slide-2.jpg" alt="...">
+            <img src="../assets/img/hero-slide-2-2.jpg" alt="...">
 
             <div class="carousel-caption">
                 <h1>It′s profitable and successful!</h1>
@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="../assets/img/hero-slide-3.jpg" alt="...">
+            <img src="../assets/img/hero-slide-3-2.jpg" alt="...">
 
             <div class="carousel-caption">
                 <h1>Good solutions for your business!</h1>
@@ -135,7 +135,7 @@
 </div>
 <!-- #main-wrapper -->
     <?php require_once('../layout/js.php'); ?>
-<div/>
+    <div>
 		<a style="font-size:0; height:0; width:0; opacity:0; position:absolute" target="_blank" href="http://www.uicookies.com">HTML Templates by uiCookies</a>        
 	</div>
 </body>
