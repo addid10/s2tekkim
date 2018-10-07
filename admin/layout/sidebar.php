@@ -12,19 +12,19 @@
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="chart.html">
+                            <a href="../home/artikel.php">
                                 <i class="fas fa-chart-bar"></i>Artikel</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="../home/staff.php">
                                 <i class="fas fa-table"></i>Staff</a>
                         </li>
                         <li>
-                            <a href="form.html">
+                            <a href="../home/visimisi.php">
                                 <i class="far fa-check-square"></i>Visi Misi</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="../home/tentangkami.php">
                                 <i class="fas fa-calendar-alt"></i>Tentang Kami</a>
                         </li>
                     </ul>
