@@ -33,7 +33,7 @@
                             <div class="col-md-12">
                                 <h2>Artikel</h2>
                                 <div class="overview-wrap float-right">
-                                    <button class="au-btn au-btn-icon au-btn--blue">
+                                    <button class="au-btn au-btn-icon au-btn--blue" data-toggle="modal" data-target="#tambahArtikel">
                                         <i class="zmdi zmdi-plus"></i>Tambah Artikel</button>
                                 </div>
                             </div>
@@ -56,8 +56,8 @@
                                             <tr>
                                                 <td>1</td>
                                                 <td>Irham & Wiwi: Sekawanan Elang</td>
-                                                <td><button class="au-btn btn-info">Detail</button></td>
-                                                <td><button class="au-btn btn-warning">Update</button></td>
+                                                <td><button class="au-btn btn-info" data-toggle="modal" data-target="#detailArtikel">Detail</button></td>
+                                                <td><button class="au-btn btn-warning" data-toggle="modal" data-target="#tambahArtikel">Update</button></td>
                                                 <td><button class="au-btn btn-danger">Delete</button></td>
                                             </tr>
                                         </tbody>
@@ -73,7 +73,8 @@
         </div>
 
     </div>
-
+    
+   <?php require_once('../layout/modal.php');?>
    <?php require_once('../layout/js.php');?>
 
 </body>

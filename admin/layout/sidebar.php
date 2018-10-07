@@ -20,10 +20,6 @@
                                 <i class="fas fa-table"></i>Staff</a>
                         </li>
                         <li>
-                            <a href="../visi-misi">
-                                <i class="far fa-check-square"></i>Visi Misi</a>
-                        </li>
-                        <li>
                             <a href="../tentang-kami">
                                 <i class="fas fa-calendar-alt"></i>Tentang Kami</a>
                         </li>
