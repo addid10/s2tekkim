@@ -32,9 +32,10 @@
                         <div class="row">
                             <div class="col-md-12">
                             <h2>Staff</h2>
-                                <div class="overview-wrap float-right">
+                                <div class="overview-wrap float-right" data-toggle="modal" data-target="#tambahStaff">
                                     <button class="au-btn au-btn-icon au-btn--blue">
                                         <i class="zmdi zmdi-plus"></i>Tambah Staff</button>
+                                        
                                 </div>
                             </div>
                         </div>
@@ -56,8 +57,8 @@
                                             <tr>
                                                 <td>1610817110001</td>
                                                 <td>Achmad Mujaddid Islami</td>
-                                                <td><button class="au-btn btn-info">Detail</button></td>
-                                                <td><button class="au-btn btn-warning">Update</button></td>
+                                                <td><button class="au-btn btn-info" data-toggle="modal" data-target="#detailStaff">Detail</button></td>
+                                                <td><button class="au-btn btn-warning" data-toggle="modal" data-target="#tambahStaff">Update</button></td>
                                                 <td><button class="au-btn btn-danger">Delete</button></td>
                                             </tr>
                                         </tbody>
@@ -73,7 +74,7 @@
         </div>
 
     </div>
-
+   <?php require_once('../layout/modal.php');?>
    <?php require_once('../layout/js.php');?>
 
 </body>
