@@ -3,6 +3,8 @@
 
 <head>
     <?php require_once('../layout/head.php');?>
+    
+    
 </head>
 
 <body class="animsition">
@@ -16,8 +18,13 @@
                                 <img src="../assets/images/icon/logo.png" alt="CoolAdmin">
                             </a>
                         </div>
+                        <?php if(isset($_GET['pesan'])){
+                            $pesan = $_GET['pesan'];
+                            echo '<div class="alert alert-danger"><strong>'.$pesan.'</strong></div>';
+                        }
+                        ?>
                         <div class="login-form">
-                            <form action="" method="post">
+                            <form action="login.php" method="post">
                                 <div class="form-group">
                                     <label>Username</label>
                                     <input class="au-input au-input--full" type="text" name="username" placeholder="Username">
@@ -38,7 +45,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     
@@ -46,4 +52,5 @@
    <?php require_once('../layout/js.php');?>
 </body>
 </html>
+
 <!-- end document-->

@@ -1,3 +1,6 @@
+<?php session_start();?>
+<?php if(isset($_SESSION['username'])): ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,6 +25,7 @@
             <!-- HEADER DESKTOP-->
             <header class="header-desktop">
             <?php require_once('../layout/header-desktop.php');?>   
+            <?php require_once('../layout/js.php');?>
             </header>
             <!-- HEADER DESKTOP-->
 
@@ -45,9 +49,13 @@
 
     </div>
 
-   <?php require_once('../layout/js.php');?>
+   
 
 </body>
 
 </html>
 <!-- end document-->
+
+<?php else: ?>
+<?php header ('location: ../login ')?>
+<?php endif ?>
