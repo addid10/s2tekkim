@@ -55,14 +55,25 @@
                                                 <th>Delete</th>
                                             </tr>
                                         </thead>
+                                        <?php 
+                                            require_once('../../koneksi/koneksi.php'); 
+                                            $statement = $koneksi->prepare(
+                                                "SELECT * FROM staffs"
+                                            );
+                                            $statement->execute();
+                                            $data = $statement->fetchAll(PDO::FETCH_OBJ);
+                                        ?>
+
                                         <tbody>
+                                        <?php foreach($data as $row): ?>
                                             <tr>
-                                                <td>1610817110001</td>
-                                                <td>Achmad Mujaddid Islami</td>
-                                                <td><button class="btn btn-primary" data-toggle="modal" data-target="#detailStaff">Detail</button></td>
-                                                <td><button class="btn btn-warning" data-toggle="modal" data-target="#tambahStaff">Update</button></td>
-                                                <td><button class="btn btn-danger">Delete</button></td>
+                                                <td><?php echo $row->NIP ?></td>
+                                                <td><?php echo $row->nama ?></td>
+                                                <td><button value="<?php echo $row->id ?>" class="btn btn-primary" data-toggle="modal" data-target="#detailStaff">Detail</button></td>
+                                                <td><button value="<?php echo $row->id ?>" class="btn btn-warning" data-toggle="modal" data-target="#tambahStaff">Update</button></td>
+                                                <td><button value="<?php echo $row->id ?>" class="btn btn-danger">Delete</button></td>
                                             </tr>
+                                        <?php endforeach ?>
                                         </tbody>
                                     </table>
                                 </div>
