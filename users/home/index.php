@@ -15,10 +15,12 @@
 <div class="uc-mobile-menu-pusher">
 
 <div class="content-wrapper">
-<nav class="navbar m-menu navbar-default navbar-fixed-top">
+
+<nav class="navbar m-menu navbar-default navbar-fixed-top detail-navbar">
     <?php require_once('../layout/navigation.php'); ?>
     <!-- .container -->
 </nav>
+<div class="mb-40"></div>
 <!-- .nav -->
 
 <div id="x-corp-carousel" class="carousel slide hero-slide hidden-xs" data-ride="carousel">
@@ -32,7 +34,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="../assets/img/hero-slide-1-2.jpg" alt="Hero Slide">
+            <img src="../assets/img/sc3.jpg" alt="Hero Slide">
 
             <div class="carousel-caption">
                 <h1>It′s simple, smart and occasionally magical.</h1>
@@ -42,7 +44,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="../assets/img/hero-slide-2-2.jpg" alt="...">
+            <img src="../assets/img/sc1.png" alt="...">
 
             <div class="carousel-caption">
                 <h1>It′s profitable and successful!</h1>
@@ -52,7 +54,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="../assets/img/hero-slide-3-2.jpg" alt="...">
+            <img src="../assets/img/sc2.png" alt="...">
 
             <div class="carousel-caption">
                 <h1>Good solutions for your business!</h1>
@@ -129,7 +131,7 @@
     </section>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="thumbnail clearfix">
                     <div class="caption">
                         <h2>Investment</h2>

@@ -15,16 +15,10 @@
 <div class="uc-mobile-menu-pusher">
 
 <div class="content-wrapper">
-<nav class="navbar m-menu navbar-default navbar-fixed-top">
+<nav class="navbar m-menu navbar-default navbar-fixed-top detail-navbar">
     <?php require_once('../layout/navigation.php'); ?>
     <!-- .container -->
 </nav>
-<!-- .nav -->
-<section class="single-page-title">
-    <div class="container text-center">
-        <h2>STAFF S2 TEKNIK KIMIA</h2>
-    </div>
-</section>
 
 <section class="team ptb-100">
     <section class="section-title">

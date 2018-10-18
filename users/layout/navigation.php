@@ -1,5 +1,6 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
+
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#navbar-collapse-1">
@@ -8,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="../assets/img/logo.png" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="../assets/img/logo.png" width="125px" alt=""></a>
         </div>
 
 
